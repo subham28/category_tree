@@ -1,11 +1,14 @@
-import React from "react";
 
-import Home from "./HomePage/Home";
+import Sidebar from "./Components/Sidebar"
+import './App.css';
+import ActionMenu from "./Components/ActionMenu";
+
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Sidebar/>
+      <ActionMenu/>
     </div>
   );
 }
